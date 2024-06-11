@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+	<link href=
+"https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+	rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<title> Food World </title>
+</head>
+
+<body>
+	<div class="container">
+		<h1> Let's Explore Your Recipe now!</h1>
+		<div class="search-container">
+			<i class="fas fa-search"></i>
+			<input type="text" id="searchInput"
+				placeholder="Search for recipes">
+			<button id="searchBtn">Search</button>
+		</div>
+		<div class="recipe-container" id="recipeContainer"></div>
+	</div>
+	<div class="modal" id="recipeModal">
+		<div class="modal-content">
+			<span class="close" id="closeBtn">×</span>
+			<div id="modalContent"></div>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+
+</html>
